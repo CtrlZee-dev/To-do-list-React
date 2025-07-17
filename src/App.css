@@ -1,0 +1,39 @@
+.header-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.logo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.edit-section {
+  margin-top: 15px;
+}
+
+.title-input {
+  padding: 8px;
+  width: 200px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.edit-button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}

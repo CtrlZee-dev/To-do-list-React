@@ -1,0 +1,77 @@
+.header-container {
+  padding: 20px;
+  background-color: #D4B2DB;
+  text-align: center;
+}
+
+.logo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.edit-section {
+  margin-top: 15px;
+  display: flex;
+
+justify-content: center;
+
+}
+
+.input-task {
+  padding: 8px 12px;
+  max-width: 600px;
+  font-size: 0.8rem;
+  margin-right: 20px;
+border-radius: 8px;
+
+}
+
+.edit-button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: white ;
+  border-radius : 10px;
+  margin-left: 50px:
+  
+}
+
+
+.task-list {
+  display: flex;
+  justify-content: center; 
+  margin-top: 30px;
+}
+
+.task-list ol {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  list-style-position: inside; // i didnt know such exist 
+}
+
+.task-list li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
